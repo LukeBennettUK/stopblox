@@ -1,0 +1,274 @@
+.mobile {
+	display: block;
+}
+
+.mobiletablet {
+	display: block;
+}
+
+.tabletsite {
+	display: none;
+}
+
+.site {
+	display: none;
+}
+
+.separator2 {
+	background: #57595B;
+	height: 40px;
+}
+
+
+
+/************************************************************
+HEADER
+*************************************************************/
+
+#logo {
+	width: 100%;
+	margin: 80px 0 45px;
+	text-align: center;
+}
+
+#logo img {
+	height: 60px;
+}
+
+
+
+/************************************************************
+HERO / BANNER
+*************************************************************/
+
+#hero,
+#overlay,
+#banner,
+#parallelogram,
+#parallelogram2 {
+	height: 200px;
+}
+
+#overlay .container h2 {
+	font-size: 1.2em;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+
+/************************************************************
+SIDE NAV
+*************************************************************/
+
+svg path {
+	border-radius: 100%;
+}
+
+.open-slide img {
+  display: block;
+  position: absolute;
+	width: 40px;
+  top: 25px;
+  right: 20px;
+	transition: .3s
+  /*-webkit-backface-visibility: hidden;*/
+}
+
+.open-slide img:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+/*  opacity: 0.9;*/
+  overflow-x: hidden;
+  text-align: center;
+  transition: 0.5s;
+  padding-top: 90px;
+}
+
+.side-nav a {
+  display: block;
+  background: #57595B;
+  color: white;
+  padding: 15px;
+  transition: .3s;
+  margin-bottom: 5px;
+  transition: .3s;
+}
+
+.side-nav a:hover {
+  background: white;
+  color: #57595B;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-close {
+  color: #57595B;
+}
+
+.btn-close:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 36px;
+}
+
+
+
+/************************************************************
+MAIN
+*************************************************************/
+
+/* Dotted Title */
+.dotted-line-title-wrapper {
+	margin-top: 25px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.dotted-line-title-wrapper img {
+	max-width: 25px;
+	max-height: 19px;
+}
+
+.dotted-line-title-wrapper h3 {
+	font-size: 1.2em;
+}
+
+
+
+/* Section1 */
+
+#section1 h3,
+#section1 p {
+	display: block;
+}
+
+#section1 div {
+	display: block;
+	width: 100%;
+}
+
+#section1-div1,
+#section1-div2 {
+	padding: 0 5%;
+}
+
+#section1-div1 {
+	padding-top: 20px;
+}
+
+#section1-para1 {
+	font-size: 1.7em;
+	line-height: 40px
+}
+
+#section1-para3,
+#section1-para4 {
+	font-size: 1em;
+	line-height: 30px;
+}
+
+
+
+/* Section 2 */
+#section2 div {
+	display: block;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+#section2-wrapper-left,
+#section2-wrapper-right {
+	text-align: center;
+	width: 100%;
+	padding: 0 5%;
+}
+
+#section2 h3 {
+	display: block;
+	text-align: center;
+	font-size: 1.5em;
+	width: 100%;
+	margin: 10px;
+}
+
+#section2 p  {
+	font-size: 1em;
+	line-height: 25px;
+}
+
+
+
+/* Section 3 */
+#section3 div {
+	display: inline-block;
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#section3 figcaption {
+	font-size: 1.2em;
+}
+
+.product-button img {
+	top: -4px;
+}
+
+/* Section 5 */
+#section5 {
+	padding: 80px 5%;
+}
+
+#section5-item1 {
+	width: 100%;
+}
+
+#section5 h3 {
+	font-size: 1.5em;
+}
+
+#section5 legend {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

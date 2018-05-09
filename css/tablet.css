@@ -1,0 +1,321 @@
+.mobile {
+	display: none;
+}
+
+.mobiletablet {
+	display: block;
+}
+
+.tabletsite {
+	display: block;
+}
+
+.site {
+	display: none;
+}
+
+.separator2 {
+	display: block;
+	background: #57595B;
+	height: 40px;
+}
+
+
+
+/************************************************************
+HEADER
+*************************************************************/
+
+#logo {
+	margin: 80px 0 45px 25px;
+}
+
+#social-contact-nav-wrapper {
+	margin: 90px 15px 45px 0;
+	/*position: absolute;*/
+}
+
+
+
+/************************************************************
+HERO / BANNER
+*************************************************************/
+
+#hero,
+#overlay,
+#banner,
+#parallelogram,
+#parallelogram2 {
+	height: 300px;
+}
+
+#overlay .container h2 {
+	font-size: 1.3em;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+
+/* Banner */
+#banner h2 {
+	font-size: .8em;
+	/*font-weight: 400;*/
+	line-height: 20px;
+	padding-right: 30px;
+}
+
+#banner h2:nth-child(1) {
+	padding-top: 20px;
+}
+
+#banner h2:nth-child(2) {
+	padding-top: 40px;
+	/*padding-right: 8%;*/
+}
+
+#parallelogram {
+	width: 300px;
+	/*margin: auto;*/
+	right: 10px;
+	/*padding: 5%;*/
+}
+
+#parallelogram2 {
+	width: 220px;
+	/*margin: auto;*/
+	right: -190px;
+}
+
+
+
+/************************************************************
+SIDE NAV
+*************************************************************/
+
+svg path {
+	border-radius: 100%;
+}
+
+.open-slide img {
+  display: block;
+  position: absolute;
+	width: 40px;
+  top: 25px;
+  right: 20px;
+	transition: .3s
+  /*-webkit-backface-visibility: hidden;*/
+}
+
+.open-slide img:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.side-nav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+/*  opacity: 0.9;*/
+  overflow-x: hidden;
+  text-align: center;
+  transition: 0.5s;
+  padding-top: 90px;
+}
+
+.side-nav a {
+  display: block;
+  background: #57595B;
+  color: white;
+  padding: 15px;
+  transition: .3s;
+  margin-bottom: 5px;
+  transition: .3s;
+}
+
+.side-nav a:hover {
+  background: white;
+  color: #57595B;
+  font-weight: 400;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.btn-close {
+  color: #57595B;
+}
+
+.btn-close:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.side-nav .btn-close {
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 36px;
+}
+
+
+
+/************************************************************
+MAIN
+*************************************************************/
+
+/* Dotted Title */
+.dotted-line-title-wrapper {
+	margin-top: 40px;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+
+/* Section 1 */
+#section1-wrapper {
+	padding: 40px 3%;
+}
+
+#section1-div1 {
+	padding: 0 10px 0 0;
+}
+#section1-div2 {
+	padding: 0 0 0 10px;
+}
+
+#section1-para1 {
+	font-size: 1.7em;
+	line-height: 30px;
+}
+
+#section1-para2 {
+	font-size: 1.2em;
+}
+
+#section1-para3 {
+	margin: 0;
+}
+
+#section1-para3,
+#section1-para4 {
+	font-size: 1em;
+	line-height: 25.5px;
+}
+
+
+
+/* Section 2 */
+#section2 div {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
+
+#section2 span {
+	margin-top: 50px;
+}
+
+#section2-wrapper-left {
+	padding:0 1% 0 3%;
+}
+
+#section2-wrapper-right {
+	padding: 0 3% 0 1%;
+}
+
+#section2 h3 {
+	display: none;
+	margin: 0;
+}
+#section2 span h3 {
+	display: inline-block;
+	font-size: 1.5em;
+}
+#section2 p {
+	font-size: 1em;
+	line-height: 25.5px;
+} 
+
+#section2 span img {
+	height: 25px;
+	vertical-align: top;
+}
+
+#section2-wrapper-left img {
+	margin-right: 7px;
+	top: 5px;
+}
+#section2-wrapper-right img {
+	margin-left: 7px;
+}
+
+
+
+/* Section 3 */
+#section3 div {
+	display: inline-block;
+	width: 50%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#section3 figcaption {
+	font-size: 1.2em;
+}
+
+.product-button img {
+	top: -4px;
+}
+
+/* Section 5 */
+#section5 {
+	padding: 50px 3%;
+}
+
+#section5-item1,
+#section5 .tabletsite {
+	width: 50%;
+}
+
+#section5-item1 {
+	padding-right: 1%;
+}
+
+#section5 .tabletsite {
+	padding-left: 1%;
+}
+
+#section5 input:nth-child(4) {
+	margin-bottom: 0;
+}
+
+/* Section5 styling */
+#section5 h3 {
+	font-size: 1.5em;
+}
+
+#section5 legend,
+#section5 p {
+	font-size: 1em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
